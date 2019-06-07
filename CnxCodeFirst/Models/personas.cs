@@ -15,8 +15,6 @@ namespace CnxCodeFirst.Models
         public string Direccion { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
-        public Nullable<int> TipoPersona_Id { get; set; }
-
-        public virtual tipospersonas tipospersonas { get; set; }
+      
     }
 }
